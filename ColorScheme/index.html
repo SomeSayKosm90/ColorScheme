@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Color Scheme</title>
+</head>
+<body>
+    <main>
+        <nav>
+            <input id="color-input" value="#F55A5A" type="color">
+            <select name="schemes" id="schemes">
+                <option value="monochrome">Monochrome</option>
+                <option value="monochrome-dark">Monochrome-dark</option>
+                <option value="monochrome-light">Monochrome-light</option>
+                <option value="analogic">Analogic</option>
+                <option value="complement">Complement</option>
+                <option value="analogic-complement">Analogic-complement</option>
+                <option value="triad">Triad</option>
+                <option value="quad">Quad</option>
+            </select>
+            <button id="btn">Get color scheme</button>
+        </nav>
+        <div id="color-container" class="color-container">
+            <div id="color-stripe-one" class="color-stripe"></div>
+            <div id="color-stripe-two" class="color-stripe"></div>
+            <div id="color-stripe-three" class="color-stripe"></div>
+            <div id="color-stripe-four" class="color-stripe"></div>
+            <div id="color-stripe-five" class="color-stripe"></div>
+        </div>
+        <footer id="hex-footer">
+            <p class="hex-desc">#F55A5A</p>
+            <p class="hex-desc">#2B283A</p>
+            <p class="hex-desc">#FBF3AB</p>
+            <p class="hex-desc">#AAD1B6</p>
+            <p class="hex-desc">#A626D3</p>
+        </footer>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+</html>
